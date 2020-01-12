@@ -1,8 +1,39 @@
-:host{
+:host {
     display: block;
     background-image: url('/assets/bg.jpg');
     background-size: 50%;
     background-position: right top;
     background-repeat: no-repeat;
     height: 100%;
+}
+
+.hero {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    h1 {
+        font-size: 54px;
+        font-weight: 900;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size:16px;
+        max-width:300px;
+        margin-bottom: 40px;
+        line-height: 1.4;
+    }
+
+}
+
+.keys{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:100%;
+    li{
+        flex:1;
+        flex-shrink:0;
+    }
 }
